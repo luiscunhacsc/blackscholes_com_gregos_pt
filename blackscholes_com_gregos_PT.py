@@ -2,10 +2,6 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
-import locale
-
-locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
-
 
 # Função Black-Scholes com cálculo dos Greeks
 def black_scholes_greeks(S, K, T, r, sigma, tipo_opcao='call'):
