@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
+# Função Black-Scholes
+
 # Função Black-Scholes com cálculo dos Greeks
 def black_scholes_greeks(S, K, T, r, sigma, tipo_opcao='call'):
     d1 = (np.log(S / K) + (r + 0.5 * sigma**2) * T) / (sigma * np.sqrt(T))
