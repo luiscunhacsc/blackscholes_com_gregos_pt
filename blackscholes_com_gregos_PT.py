@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
+import locale
 
 locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
